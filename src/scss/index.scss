@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import './navbar.scss';
+@import './home.scss';
+@import './projects.scss';
+@import './about.scss';
+@import './contact.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+  font-size: 1.125rem;
+  position: relative;
+}
+
+/***************** LAYOUT ***********************/
+.l-flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.l-flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/***************** Universal COMPONENTS ***********************/
+.c-button {
+  padding: 10px 40px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.link--style {
+  margin: 0.7rem;
+  color: inherit;
+  text-decoration: inherit;
+
+  &:hover {
+    color: blue;
+  }
+}
