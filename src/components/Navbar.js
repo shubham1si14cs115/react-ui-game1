@@ -5,11 +5,11 @@ export default function Navbar() {
   return (
     <>
       <div className="navbar l-flex ">
-        <div className="logo l-flex__center">
+        <div className="logo l-flex--center">
           <img src="https://picsum.photos/500/500" alt="" />
         </div>
 
-        <div className="menu l-flex__center">
+        <div className="menu l-flex--center">
           <Link className="link--style" to="/">
             Home
           </Link>
@@ -24,7 +24,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="button l-flex__center">
+        <div className="button l-flex--center">
           <button className="c-button">Explore</button>
         </div>
       </div>
